@@ -13,7 +13,7 @@ from psycopg2.extras import RealDictCursor
 BOT_TOKEN = os.environ['BOT_TOKEN']
 CHANNEL_ID = int(os.environ['CHANNEL_ID'])
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-ROLE_ID = 1467600096563691732
+ROLE_ID = 1467928994665205811
 
 # Google service account from env
 credentials_dict = json.loads(os.environ['SERVICE_ACCOUNT_JSON'])
@@ -155,4 +155,5 @@ async def on_ready():
     asyncio.create_task(watcher_loop(channel))
 
 # ---------------- RUN ----------------
+
 client.run(BOT_TOKEN)
