@@ -83,7 +83,7 @@ def list_files(parent_id):
     return results.get('files', [])
 
 # ---------------- DISCORD ----------------
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
 # ---------------- SCAN FUNCTIONS ----------------
@@ -148,7 +148,7 @@ async def watcher_loop(channel):
 @client.event
 async def on_ready():
     logging.info("Bot connected")
-    channel = client.get_channel(CHANNEL_ID)
+    channel = await client.fetch_channel(CHANNEL_ID)
     if not channel:
         logging.error("Channel not found")
         return
@@ -157,3 +157,4 @@ async def on_ready():
 # ---------------- RUN ----------------
 
 client.run(BOT_TOKEN)
+
