@@ -38,7 +38,8 @@ SHALLOW_FOLDERS = {
     "Emily [Model Content Upload]": "19ioe850BAFPNvOAGB955q38ZTjmXluWP",
     "Shea [Model Content Upload]": "1KJkG3YEoalb3VVrJZLj1wwaA0dZxyg3I",
     "Eevie [Model Content Upload]": "1Wmx9zx0blbVHkcrMYL_1_gXsHjNLvaO_",
-    "Kylie C [Model Content Upload]": "1tFGXI-ggK6reKzMrGC2RBk17_20a4l3Q"
+    "Kylie C [Model Content Upload]": "1tFGXI-ggK6reKzMrGC2RBk17_20a4l3Q",
+    "Sally [Model Content Upload]": "1rWKITODxvhWAV55A_qtsxwZPAzUKQlU2"
 }
 
 # Deep scan folder
@@ -171,3 +172,4 @@ async def on_ready():
 
 # ---------------- RUN ----------------
 client.run(BOT_TOKEN)
+
