@@ -27,6 +27,10 @@ FOLDERS = {
     "Heather [PPV Upload]": "1uNdYQK3kgnOA4qTnCSIb6QcQUJ7gnBne",
     "Heather [OF Pics Upload]": "1Eg7JUh3PoUiHbKEVQEsKfpr5dY1nsriQ",
     "Heather [OF Vids Upload]": "1ny9ASKmyC90Ai8tOuTqkJdb3ZCQp_8Hk",
+    "Heather [Insta Stories]": "1Qz8bcBJTMkjAjvC6wHFTbSjxXuAoIhkd",
+    "Heather [Insta Grid Pics]": "1ce1gDroD1N3IvdCW8kRV8GCcmQ_u_OKj",
+    "Heather [Insta Reels]": "1AE6kw94_-p8ISkdY5GJUVNL42ytvDUBn",
+    "Heather [Tiktoks]": "1cvqbbPGLporJ9wwbOB4g6Q8gh2W30cBD",
     "Kylie B [Model Content Upload]": "1OC8QIz_1aEtKg9q0xOoxIUuRIwmqyIe1",
     "Sara [Model Content Upload]": "1qw5DwgOmrkjHtkJqyjHcG4__enweerAU",
     "Emily [Model Content Upload]": "19ioe850BAFPNvOAGB955q38ZTjmXluWP",
@@ -34,7 +38,11 @@ FOLDERS = {
     "Eevie [Model Content Upload]": "1Wmx9zx0blbVHkcrMYL_1_gXsHjNLvaO_",
     "Kylie C [Model Content Upload]": "1tFGXI-ggK6reKzMrGC2RBk17_20a4l3Q",
     "Sally [Model Content Upload]": "1rWKITODxvhWAV55A_qtsxwZPAzUKQlU2",
-    "Claire [Model Content Upload]": "13iy_aJsGKb3r4GDcK-37rppnuzNkc2sh"
+    "Claire [Model Content Upload]": "13iy_aJsGKb3r4GDcK-37rppnuzNkc2sh",
+    "Naomi [Model Content Upload]": "1d5X6tItIpHB2IBD6lrPl5kVPxVk68ije",
+    "Mila [Model Content Upload]": "1RjeoriuC0xutba8UmcaH3jlnd4uF1J6C",
+    "Kitty [Model Content Upload]": "1Oj2FHha5AwcypWD42T3KM_RvUV2SUSK1",
+    "Mila [Instagram Upload]": "1g7Iju9_YZ56qA7hrq8d92HV6ji99HXU6"
 }
 
 logging.basicConfig(level=logging.INFO)
@@ -179,5 +187,6 @@ async def on_ready():
 
 # ---------------- RUN ----------------
 client.run(BOT_TOKEN)
+
 
 
