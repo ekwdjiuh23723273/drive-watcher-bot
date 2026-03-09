@@ -42,7 +42,10 @@ FOLDERS = {
     "Naomi [Model Content Upload]": "1d5X6tItIpHB2IBD6lrPl5kVPxVk68ije",
     "Mila [Model Content Upload]": "1RjeoriuC0xutba8UmcaH3jlnd4uF1J6C",
     "Kitty [Model Content Upload]": "1Oj2FHha5AwcypWD42T3KM_RvUV2SUSK1",
-    "Mila [Instagram Upload]": "1g7Iju9_YZ56qA7hrq8d92HV6ji99HXU6"
+    "Mila [Instagram Upload]": "1g7Iju9_YZ56qA7hrq8d92HV6ji99HXU6",
+    "Coco Gum [Instagram Upload]": "1hdT9hfjnzKqR4V7DRbjzCz8AHPFXOJSj",
+    "Coco Gum [Model Content Upload]": "1wp3owLSIZzDdonHtDCRP1zIFn3d24c1J",
+    "Paris [Model Content Upload]": "1wCVMRkra4w6oe6s2BLJpXqXx74Jnj2Yd"   
 }
 
 logging.basicConfig(level=logging.INFO)
@@ -187,6 +190,7 @@ async def on_ready():
 
 # ---------------- RUN ----------------
 client.run(BOT_TOKEN)
+
 
 
 
